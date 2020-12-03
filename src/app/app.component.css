@@ -1,0 +1,52 @@
+.Central{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.caja{
+    position: relative;
+    height: 250px;
+    width: 550px;
+    background-color: #dad3d3;
+    border: 1px solid #3333;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+    flex-direction: column;
+  
+}
+.pregunta{
+    font-size: 20px;
+    margin-bottom: 0.5em;
+    font-style: italic;
+}
+.contest{
+   
+    margin-right: 0.5em;
+    font-size: 18px;;
+}
+.texto{
+    margin-bottom: 0.5em;
+    display: flex; 
+}
+.aciertos{
+    font-size: 18px;
+    border-bottom: 1px solid #3333;
+    color: green;
+}
+.fallos{
+    font-size: 18px;
+    color: red;
+}
+
+.secund {
+    border: 1px solid #333333 ;
+    padding: 5em;
+}
+.abs{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}

@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ngSimon"
+    }
+  },
+  "defaultProject": "ngSimon",
+  "cli": {
+    "analytics": "b0f2a852-1a0d-4abe-b62e-ad889369cdce"
+  }
 }
